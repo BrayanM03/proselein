@@ -77,26 +77,27 @@
         </section>
     </div>
     </section>
-
+    <img src="assets/img/nosotros1.jpeg" class="w-1/5 absolute bottom-10 right-10 border-8 border-slate-200" alt="instalacion">
     <section class="bg-white w-full">
-            <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-                <figure class="max-w-screen-md mx-auto">
-                <h2 class="mb-4 lg:mb-7 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 md:text-4xl">Nuestra misión</h2>
-                        <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
-                    </svg> 
-                    <blockquote>
-                        <p class="text-2xl font-medium text-gray-900">Ser una empresa lider en proveedor soluciones de ingenieria, cumpliendo las espectativas de nuestros clientes, brindando confiabilidad, siendo 
-                            redituables y ofreciendo trabajos de calidad basados en el cumpliento normativo y responsabilidad ambiental, haciendo énfansis 
-                            que la seguridad es nuestra prioridad.
-                        </p>
-                    </blockquote>
-                    <figcaption class="flex items-center justify-center mt-6 space-x-3">
-                        <img src="assets/img/logo-blanco.jpg" alt="" class="w-40">
-                    </figcaption>
-                </figure>
-            </div>
-    </section>
-    <hr>
+      <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+        <figure class="max-w-screen-md mx-auto">
+          <h2 class="mb-4 lg:mb-7 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 md:text-4xl">Nuestra misión</h2>
+          <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
+        </svg> 
+        <blockquote>
+          <p class="text-xl text-gray-900">Ser una empresa lider en proveedor soluciones de ingenieria, cumpliendo las espectativas de nuestros clientes, brindando confiabilidad, siendo 
+            redituables y ofreciendo trabajos de calidad basados en el cumpliento normativo y responsabilidad ambiental, haciendo énfansis 
+            que la seguridad es nuestra prioridad.
+          </p>
+        </blockquote>
+        <figcaption class="flex items-center justify-center mt-6 space-x-3">
+          <img src="assets/img/logo-blanco.jpg" alt="" class="w-40">
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+  <hr>
+  <img src="assets/img/nosotros2.jpeg" class="w-1/5 absolute bottom-10 left-10 border-8 border-slate-200" alt="ingeniero">
     <section class="bg-slate-100 w-full">
             <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
                 <figure class="max-w-screen-md mx-auto">
@@ -104,7 +105,7 @@
                         <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
                     </svg> 
                     <blockquote>
-                        <p class="text-2xl font-medium text-gray-900">Consolidarnos como la mejor opción en el mercado eléctrico y de instrumentación en la 
+                        <p class="text-xl font-medium text-gray-900">Consolidarnos como la mejor opción en el mercado eléctrico y de instrumentación en la 
                             región, reconocidos en servicios y proyectos relacionados con los servicios que brindamos.
                         </p>
                     </blockquote>

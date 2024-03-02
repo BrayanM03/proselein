@@ -23,16 +23,16 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'mail.proselein.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'test@proselein.com';                     //SMTP username
-    $mail->Password   = 'Leyx;b?~@67P';                               //SMTP password
+    $mail->Username   = 'arturo.reyes@proselein.com';                     //SMTP username
+    $mail->Password   = 'Francotirador01.';//'Leyx;b?~@67P';                               //SMTP password
     $mail->SMTPSecure = 'ssl';            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('test@proselein.com', 'Proselein');
-    $mail->addAddress('test@proselein.com', 'Proselein');     //Add a recipient
+    $mail->setFrom('arturo.reyes@proselein.com', 'Proselein');
+    $mail->addAddress('arturo.reyes@proselein.com', 'Proselein');     //Add a recipient
    
-    $mail->addReplyTo('test@proselein.com', 'Information');
+    $mail->addReplyTo('arturo.reyes@proselein.com', 'Information');
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML

@@ -107,7 +107,7 @@
                 <h1 class="drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] subpixel-antialiased tracking-wide mb-4 text-4xl font-extrabold text-center tracking-tight leading-none text-white md:text-5xl lg:text-4xl">
                   Somos abastecedores de productos industriales
                 </h1><br>
-                <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Ver catalogo <span aria-hidden="true">→</span></a>
+                <a href="catalogo.php" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Ver catalogo <span aria-hidden="true">→</span></a>
               </div>
               <div class="basis-1/5">
                 <img class="border-2 border-white" src="assets/img/banner-img-2.png" alt="">
@@ -135,6 +135,12 @@
               </div>
               <div class="basis-1/5">
                 <img class="border-2 border-white" src="assets/img/cliente_voltek.png" alt="">
+              </div>
+              <div class="basis-1/5">
+                <img class="border-2 border-white" src="assets/img/cliente_assa_abloy.png" alt="">
+              </div>
+              <div class="basis-1/5">
+                <img class="border-2 border-white" src="assets/img/cliente_trico.png" alt="">
               </div>
           </div>
     </section>
