@@ -40,16 +40,42 @@
 <?php require('views/navbar.php')  ?>
 <main>
 
-<section class="bg-white dark:bg-gray-400">
-  <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Nuestros servicios</h2>
-      <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-600 sm:text-xl">¡Te ofrecemos calidad y potenciamiento a tus proyectos!</p>
+    <section class="bg-white dark:bg-gray-400">
+      <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Nuestros servicios</h2>
+          <p class="mb-2 lg:mb-2 font-light text-center text-gray-500 dark:text-gray-600 sm:text-xl">¡Te ofrecemos calidad y potenciamiento a tus proyectos!</p>
+      </div>
+    </section>
+    <section class="bg-white border dark:bg-white-400">
+  <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-xl">
+    <div class="flex flex-wrap justify-center">
+      <div class="w-full sm:w-1/2 md:w-1/5 text-center mb-8">
+        <img class="w-20 h-20 rounded-full border-4 border-sky-500 m-auto" src="./assets/img/servicios/sales.png" alt="Rounded avatar">
+        <span class="text-slate-900 text-xl font-bold block mt-2">Ventas productos</span>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/5 text-center mb-8">
+        <img class="w-20 h-20 rounded-full border-4 border-sky-500 m-auto" src="./assets/img/servicios/integracion-banner.png" alt="Rounded avatar">
+        <span class="text-slate-900 text-xl font-bold block mt-2">Asesoria</span>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/5 text-center mb-8">
+        <img class="w-20 h-20 rounded-full border-4 border-sky-500 m-auto" src="./assets/img/servicios/instalacion-banner.png" alt="Rounded avatar">
+        <span class="text-slate-900 text-xl font-bold block mt-2">Instalaciones industriales</span>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/5 text-center mb-8">
+        <img class="w-20 h-20 rounded-full border-4 border-sky-500 m-auto" src="./assets/img/servicios/pruebas-banner.png" alt="Rounded avatar">
+        <span class="text-slate-900 text-xl font-bold block mt-2">Mantenimientos</span>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/5 text-center mb-8">
+        <img class="w-20 h-20 rounded-full border-4 border-sky-500 m-auto" src="./assets/img/servicios/ventas-banner.png" alt="Rounded avatar">
+        <span class="text-slate-900 text-xl font-bold block mt-2">Implementaciones</span>
+      </div>
+    </div>
   </div>
 </section>
-<div id="secciones-servicios">
-  
-</div>
-    <?php require('views/footer.php')  ?>
+    <div id="secciones-servicios">
+      
+    </div>
+        <?php require('views/footer.php')  ?>
 
 
   </main>

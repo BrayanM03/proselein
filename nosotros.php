@@ -64,12 +64,14 @@
                 </div>
             </form>
         </div>
-        <div class="bg-gradient-to-b from-blue-50 to-transparent dark:from-blue-900 w-full mt-16 h-60 absolute top-0 left-0 z-0"></div>
+        <!-- <div class="bg-gradient-to-b from-blue-50 to-transparent dark:from-blue-900 w-full mt-16 h-60 absolute top-0 left-0 z-0"></div> -->
     </section>
+  <img src="assets/img/nosotros2.jpeg" class="md:w-1/5 md:absolute md:bottom-10 md:left-10 md:border-8 border-4 sm:w-44 border-slate-200" alt="ingeniero">
+
     <section class="w-full bg-slate-100">
     <div class="mx-auto max-w-5xl px-4 py-6 sm:px-6 lg:px-8">
-        <section class="mt-3 pt-10 pb-10 static">
-          <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-center">
+        <section class="mt-3 pt-10 pb-10 sm:pb-0 static">
+          <p class="mb-8 sm:mb-3 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-center">
             Somos Proseleiin, proveedora de servicios eléctricos y de productos de instrumentación, estamos comprometidos a ayudarle
             y brindarle el mejor servicio, 5 años nos respaldan.
           </p>
@@ -77,7 +79,8 @@
         </section>
     </div>
     </section>
-    <img src="assets/img/nosotros1.jpeg" class="w-1/5 absolute bottom-10 right-10 border-8 border-slate-200" alt="instalacion">
+
+    <img src="assets/img/nosotros1.jpeg" class="md:w-1/5 md:absolute md:bottom-10 md:right-10 md:border-8 border-4 sm:w-44 border-slate-200" alt="instalacion">
     <section class="bg-white w-full">
       <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
         <figure class="max-w-screen-md mx-auto">
@@ -97,7 +100,6 @@
     </div>
   </section>
   <hr>
-  <img src="assets/img/nosotros2.jpeg" class="w-1/5 absolute bottom-10 left-10 border-8 border-slate-200" alt="ingeniero">
     <section class="bg-slate-100 w-full">
             <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
                 <figure class="max-w-screen-md mx-auto">

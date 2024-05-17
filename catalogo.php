@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-    <link rel="icon" href="assets/img/logo_ico.ico">    
-    <title>Catalogo de conectores| Proselein</title>
 
-    <script>
-        tailwind.config = {
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <link rel="icon" href="assets/img/logo_ico.ico">
+  <title>Catalogo de conectores| Proselein</title>
+
+  <script>
+    tailwind.config = {
       theme: {
         extend: {
           colors: {
@@ -18,8 +19,8 @@
         }
       }
     }
-    </script>
-     <style type="text/tailwindcss">
+  </script>
+  <style type="text/tailwindcss">
     @layer utilities {
           .content-auto {
             content-visibility: auto;
@@ -27,8 +28,9 @@
     }
   </style>
 </head>
+
 <body>
-    <!--
+  <!--
   This example requires updating your template:
 
   ```
@@ -36,22 +38,46 @@
   <body class="h-full">
   ```
 -->
-<div class="min-h-full">
-<?php require('views/navbar.php')  ?>
-<main class="dark:bg-gray-600 pt-4">
+  <div class="min-h-full">
+    <?php require('views/navbar.php')  ?>
+    <main class="dark:bg-gray-600 pt-4">
 
-<section class="z-0 bg-white flex flex-col">
+      <section class="z-0 bg-white flex flex-col dark:bg-gray-800">
 
-  <div class="w-12/12 dark:bg-gray-600">
-    <div class="flex flex-col items-center justify-center py-4 dark:bg-gray-600 flex-wrap">
-        <span class="font-bold text-lg">Catalogo</span>
-        <span class="font-bold text-2xl text-stone-500 dark:text-white">Conectores de cobre flexibles y rigidos</span>
-    </div>
-  </div>
+        <div class="w-12/12 dark:bg-gray-800 max-w-screen-md m-auto text-center mb-5">
+          <div class="flex flex-col items-center justify-center py-4 dark:bg-gray-800 flex-wrap">
 
-<div class="grid grid-cols-2 lg:grid-cols-5 lx:grid-cols-6 lg:gap-4 p-5 dark:bg-gray-600" id="area-catalogo">
-    
-</div>
+            <span class="font-bold text-2xl text-stone-500 dark:text-white">Conectores de cobre flexibles y rigidos</span>
+
+            <p class="text-gray-600 dark:text-gray-400 mt-4">En Proselein, nos enorgullecemos de ofrecer una amplia gama de conectores de cobre flexibles y rígidos para satisfacer las diversas necesidades de nuestros clientes. Nuestros conectores están fabricados con materiales de la más alta calidad y están diseñados para brindar un rendimiento confiable y duradero en las aplicaciones más exigentes.</p>
+
+            <!-- <h3 class="text-2xl font-semibold text-gray-800 mt-8">Conectores de Cobre Flexibles</h3>
+
+<ul class="list-disc  dark:text-white list-inside text-gray-600">
+  <li>Versatilidad: Se adaptan fácilmente a espacios reducidos y curvas pronunciadas.</li>
+  <li>Durabilidad: Fabricados con cobre de alta resistencia para una larga vida útil.</li>
+  <li>Confiabilidad: Conexiones seguras y resistentes a la corrosión.</li>
+  <li>Amplia gama de aplicaciones: Ideales para instalaciones eléctricas, sistemas de refrigeración, aire acondicionado y más.</li>
+</ul>
+
+<h3 class="text-2xl font-semibold text-gray-800 mt-8">Conectores de Cobre Rígidos</h3>
+
+<ul class="list-disc  dark:text-white list-inside text-gray-600">
+  <li>Resistencia: Soportan altas corrientes y temperaturas extremas.</li>
+  <li>Estabilidad: Conexiones firmes y resistentes a vibraciones.</li>
+  <li>Facilidad de instalación: Diseñados para un montaje rápido y sencillo.</li>
+  <li>Amplia gama de tamaños: Disponibles en diversas medidas para adaptarse a sus necesidades específicas.</li>
+  <p class="text-gray-600 mt-4">**Proselein: Su proveedor de confianza para soluciones eléctricas confiables.**</p>
+</ul> -->
+
+
+
+          </div>
+        </div>
+        <span class="font-bold text-lg text-center m-auto dark:text-white">Este es nuestro catalogo</span>
+        <div class="grid grid-cols-2 lg:grid-cols-5 lx:grid-cols-6 mt-5 lg:gap-4 p-5 dark:bg-gray-600" id="area-catalogo">
+
+        </div>
 
 
 
@@ -90,14 +116,15 @@
             </div>
         </div> -->
 
-    </section>
+      </section>
 
-    <?php require('views/footer.php')  ?>
+      <?php require('views/footer.php')  ?>
 
 
-  </main>
-</div>
+    </main>
+  </div>
 </body>
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="./assets/js/catalogo.js"></script>
+
 </html>

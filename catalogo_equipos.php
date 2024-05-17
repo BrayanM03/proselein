@@ -40,21 +40,39 @@
 <?php require('views/navbar.php')  ?>
 <main class="dark:bg-gray-600 pt-4">
 
-    <section class="z-0 bg-white flex flex-col">
+    <section class="z-0 bg-white flex flex-col dark:bg-gray-800">
 
-<div class="w-12/12"> 
-  <div class="flex flex-col items-center justify-center py-4 dark:bg-gray-600 flex-wrap">
-      <span class="font-bold text-lg">Catalogo</span>
-      <span class="font-bold text-2xl text-stone-500 dark:text-white">Equipos de alta tensión</span>
-  </div>
-</div>
-<!-- <div class="flex items-center justify-center py-4 md:py-8 dark:bg-gray-600 flex-wrap">
-    <button type="button" class="text-blue-700 hover:text-white border border-blue-600 bg-white hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900 dark:focus:ring-blue-800">All categories</button>
-    <button type="button" class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800">Shoes</button>
-    <button type="button" class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800">Bags</button>
-    <button type="button" class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800">Electronics</button>
-    <button type="button" class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800">Gaming</button>
-</div> -->
+    <div class="w-12/12 dark:bg-gray-800 max-w-screen-md m-auto text-center mb-5">
+          <div class="flex flex-col items-center justify-center py-4 dark:bg-gray-800 flex-wrap">
+
+            <span class="font-bold text-2xl text-stone-500 dark:text-white">Equipos de alta tensión</span>
+
+            <p class="text-gray-600 dark:text-gray-400 mt-4">En Proselein, comprendemos la necesidad de contar con equipos de alta tensión confiables y de alto rendimiento para sus proyectos eléctricos más exigentes. Por eso, ofrecemos una amplia gama de equipos de alta tensión diseñados para brindar un funcionamiento seguro y eficiente en las aplicaciones más críticas.</p>
+
+            <!-- <h3 class="text-2xl font-semibold text-gray-800 mt-8">Conectores de Cobre Flexibles</h3>
+
+<ul class="list-disc  dark:text-white list-inside text-gray-600">
+  <li>Versatilidad: Se adaptan fácilmente a espacios reducidos y curvas pronunciadas.</li>
+  <li>Durabilidad: Fabricados con cobre de alta resistencia para una larga vida útil.</li>
+  <li>Confiabilidad: Conexiones seguras y resistentes a la corrosión.</li>
+  <li>Amplia gama de aplicaciones: Ideales para instalaciones eléctricas, sistemas de refrigeración, aire acondicionado y más.</li>
+</ul>
+
+<h3 class="text-2xl font-semibold text-gray-800 mt-8">Conectores de Cobre Rígidos</h3>
+
+<ul class="list-disc  dark:text-white list-inside text-gray-600">
+  <li>Resistencia: Soportan altas corrientes y temperaturas extremas.</li>
+  <li>Estabilidad: Conexiones firmes y resistentes a vibraciones.</li>
+  <li>Facilidad de instalación: Diseñados para un montaje rápido y sencillo.</li>
+  <li>Amplia gama de tamaños: Disponibles en diversas medidas para adaptarse a sus necesidades específicas.</li>
+  <p class="text-gray-600 mt-4">**Proselein: Su proveedor de confianza para soluciones eléctricas confiables.**</p>
+</ul> -->
+
+
+
+          </div>
+        </div>
+        <span class="font-bold text-lg text-center m-auto dark:text-white">Este es nuestro catalogo</span>
 <div class="grid grid-cols-2 lg:grid-cols-5 lx:grid-cols-6 lg:gap-4 p-5 dark:bg-gray-600" id="area-catalogo">
     
 </div>
