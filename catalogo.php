@@ -125,6 +125,6 @@
   </div>
 </body>
 <script src="vendor/jquery/jquery.min.js"></script>
-<script src="./assets/js/catalogo.js"></script>
+<script src="./assets/js/catalogo.js?v=<?php echo(rand()); ?>"></script>
 
 </html>

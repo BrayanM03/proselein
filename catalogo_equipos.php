@@ -123,5 +123,5 @@
 </div>
 </body>
 <script src="vendor/jquery/jquery.min.js"></script>
-<script src="./assets/js/catalogo_equipos_alta_tension.js"></script>
+<script src="./assets/js/catalogo_equipos_alta_tension.js?v=<?php echo(rand()); ?>"></script>
 </html>

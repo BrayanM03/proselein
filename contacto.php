@@ -81,5 +81,5 @@
 </div>
 </body>
 <script src="vendor/jquery/jquery.min.js"></script>
-<script src="./assets/js/correo.js"></script>
+<script src="./assets/js/correo.js?v=<?php echo(rand()); ?>"></script>
 </html>

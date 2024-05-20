@@ -54,18 +54,18 @@
         <span class="text-slate-900 text-xl font-bold block mt-2">Ventas productos</span>
       </div>
       <div class="w-full sm:w-1/2 md:w-1/5 text-center mb-8">
-        <img class="w-20 h-20 rounded-full border-4 border-sky-500 m-auto" src="./assets/img/servicios/integracion-banner.png" alt="Rounded avatar">
-        <span class="text-slate-900 text-xl font-bold block mt-2">Asesoria</span>
+        <img class="w-20 h-20 rounded-full border-4 border-sky-500 m-auto cursor-pointer" onclick="modalServicioAsesoriaYReportes()" src="./assets/img/servicios/integracion-banner.png" alt="Rounded avatar">
+        <span class="text-slate-900 text-xl font-bold block mt-2">Asesoria y reportes</span>
       </div>
-      <div class="w-full sm:w-1/2 md:w-1/5 text-center mb-8">
+      <div class="w-full sm:w-1/2 md:w-1/5 text-center mb-8 cursor-pointer" onclick="modalServicioInstalaciones()">
         <img class="w-20 h-20 rounded-full border-4 border-sky-500 m-auto" src="./assets/img/servicios/instalacion-banner.png" alt="Rounded avatar">
         <span class="text-slate-900 text-xl font-bold block mt-2">Instalaciones industriales</span>
       </div>
-      <div class="w-full sm:w-1/2 md:w-1/5 text-center mb-8">
+      <div class="w-full sm:w-1/2 md:w-1/5 text-center mb-8 cursor-pointer" onclick=" modalServicioMantenimientos()">
         <img class="w-20 h-20 rounded-full border-4 border-sky-500 m-auto" src="./assets/img/servicios/pruebas-banner.png" alt="Rounded avatar">
         <span class="text-slate-900 text-xl font-bold block mt-2">Mantenimientos</span>
       </div>
-      <div class="w-full sm:w-1/2 md:w-1/5 text-center mb-8">
+      <div class="w-full sm:w-1/2 md:w-1/5 text-center mb-8 cursor-pointer" onclick="modalServicioImplementacion()">
         <img class="w-20 h-20 rounded-full border-4 border-sky-500 m-auto" src="./assets/img/servicios/ventas-banner.png" alt="Rounded avatar">
         <span class="text-slate-900 text-xl font-bold block mt-2">Implementaciones</span>
       </div>
@@ -81,6 +81,7 @@
   </main>
 </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="vendor/jquery/jquery.min.js"></script>
-<script src="./assets/js/servicios.js"></script>
+<script src="./assets/js/servicios.js?v=<?php echo(rand()); ?>"></script>
 </html>
