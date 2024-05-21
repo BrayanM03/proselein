@@ -136,7 +136,6 @@
             </p>
             <ul class="mb-4 text-gray-500 dark:text-gray-400 sm:text-xl">
                 <li><strong>Correo electrónico:</strong> administracion@proselein.com</li>
-                <li><strong>Teléfono:</strong> +52 (123) 456-7890</li>
             </ul>
         </section>
 </section>

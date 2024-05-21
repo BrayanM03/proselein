@@ -172,10 +172,10 @@ function modalServicioMantenimientos() {
   Swal.fire({
     html: `
       <div class="container" id="container-services-mtto">
-      <a href="#" class="flex items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+      <a href="#" class="flex items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl dark:border-gray-700">
     <div class="flex flex-col justify-between p-4 leading-normal">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Servicios de mantenimiento</h5>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Además de brindar servicios de mantenimiento a Compresores de aire, Chiller, Generadores Eléctricos industriales, Subestaciones eléctricas.</p>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Servicios de mantenimiento</h5>
+        <p class="mb-3 font-normal text-gray-700">Además de brindar servicios de mantenimiento a Compresores de aire, Chiller, Generadores Eléctricos industriales, Subestaciones eléctricas.</p>
     </div>
     
     </a>
@@ -203,10 +203,10 @@ function modalServicioMantenimientos() {
         console.log('lol');
         $("#container-services-mtto").empty().append(
           `
-          <a href="#" class="flex items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+          <a href="#" class="flex items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700">
           <div class="flex flex-col justify-between p-4 leading-normal">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Servicios de mantenimiento</h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Además de brindar servicios de mantenimiento a Compresores de aire, Chiller, Generadores Eléctricos industriales, Subestaciones eléctricas.</p>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Servicios de mantenimiento</h5>
+              <p class="mb-3 font-normal text-gray-700">Además de brindar servicios de mantenimiento a Compresores de aire, Chiller, Generadores Eléctricos industriales, Subestaciones eléctricas.</p>
           </div>
           
           </a>
@@ -279,7 +279,7 @@ function modalServicioImplementacion() {
   Swal.fire({
     html: `
     <div class="container mx-auto">
-        <a href="#" class="flex items-center bg-white m-auto border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <a href="#" class="flex items-center bg-white m-auto border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl dark:border-gray-700">
           <div class="flex flex-col justify-between p-4 leading-normal">
               <h3 class="text-lg m-auto font-bold text-gray-800">Implementamos lazos de control de variables de proceso, sistemas automatizados que le permiten:
 
@@ -309,7 +309,7 @@ function modalServicioInstalaciones() {
   Swal.fire({
     html: `
     <div class="container mx-auto">
-        <a href="#" class="flex items-center bg-white m-auto border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <a href="#" class="flex items-center bg-white m-auto border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl dark:border-gray-700">
           <div class="flex flex-col justify-between p-4 leading-normal">
               <h3 class="text-lg m-auto font-bold text-gray-800">
               Nuestro equipo de Proselein se dedica a diseñar, instalar y mantener sistemas eléctricos personalizados, adaptados a las necesidades específicas de cada industria.
