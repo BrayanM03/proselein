@@ -9,9 +9,9 @@
                 <img class="h-8 mt-1 w-8" src="assets/img/logo_2.png" alt="Proselein">
                 </div>
                 <ul class="text-gray-500 mt-3 dark:text-gray-400 font-medium">
-                    <li>Ing. Arturo Reyes</li>
+                   <!--  <li>Ing. Arturo Reyes</li> -->
                     <li>arturo.reyes@proselein.com</li>
-                    <li>8688284703</li>
+                 <!--    <li>8688284703</li> -->
                 </ul>
               </div>
                  <!--  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> -->
